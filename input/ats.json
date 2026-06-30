@@ -1,0 +1,86 @@
+{
+  "candidate": {
+    "id": "ATS-2024-00789",
+    "full_name": "Priya Sharma",
+    "email": "priya.sharma@gmail.com",
+    "emails": [
+      {"type": "personal", "value": "priya.sharma@gmail.com"},
+      {"type": "work",     "value": "priya@techcorp.io"},
+      {"type": "invalid",  "value": "not-an-email@@broken"}
+    ],
+    "phone": "+91-98765-43210",
+    "phones": [
+      {"type": "mobile",   "value": "+91-9876543210"},
+      {"type": "office",   "value": "+91-40-12345678"},
+      {"type": "bad",      "value": "00000000000000000000"}
+    ],
+    "location": {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "country": "India"
+    },
+    "headline": "Senior Machine Learning Engineer",
+    "years_of_experience": 6,
+    "skills": [
+      {"name": "Python"},
+      {"name": "Machine Learning"},
+      {"name": "TensorFlow"},
+      {"name": "PyTorch"},
+      {"name": "Kubernetes"},
+      {"name": "Docker"},
+      {"name": "AWS"},
+      {"name": "FastAPI"},
+      {"name": "PostgreSQL"},
+      {"name": "Python"},
+      {"name": "ml"},
+      {"name": "tensorflow"}
+    ],
+    "linkedin": "https://linkedin.com/in/priya-sharma-ml",
+    "github": "https://github.com/priyasharma-ml",
+    "experience": [
+      {
+        "title": "Senior ML Engineer",
+        "company": "TechCorp Solutions",
+        "start_date": "Jan 2021",
+        "end_date": "Present",
+        "current": true,
+        "description": "Led ML platform development, reduced model training time by 40%. Built RAG pipeline using LangChain and OpenAI.",
+        "location": "Hyderabad, India"
+      },
+      {
+        "title": "Data Scientist",
+        "company": "DataWave Analytics",
+        "start_date": "Jun 2019",
+        "end_date": "Dec 2020",
+        "description": "Built NLP models for sentiment analysis across 10M+ customer reviews.",
+        "location": "Bengaluru, India"
+      },
+      {
+        "title": "Junior Data Analyst",
+        "company": "DataWave Analytics",
+        "start_date": "Jun 2018",
+        "end_date": "May 2019",
+        "description": "Data cleaning and EDA using pandas, created dashboards in Tableau.",
+        "location": "Bengaluru, India"
+      }
+    ],
+    "education": [
+      {
+        "institution": "Indian Institute of Technology Hyderabad",
+        "degree": "M.Tech",
+        "field_of_study": "Computer Science & Engineering",
+        "start_date": "2016",
+        "end_date": "2018",
+        "gpa": 8.7
+      },
+      {
+        "institution": "Osmania University",
+        "degree": "B.E.",
+        "field_of_study": "Electronics & Communication",
+        "start_date": "2012",
+        "end_date": "2016",
+        "gpa": "9.1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "_comment": "CandidateFusion – Output Projection Configuration",
+  "_version": "1.0.0",
+
+  "hide_provenance": false,
+  "hide_confidence": false,
+
+  "field_aliases": {
+    "full_name":         "name",
+    "emails":            "email_addresses",
+    "phones":            "phone_numbers",
+    "years_experience":  "experience_years"
+  },
+
+  "exclude_fields": [
+    "_source_data"
+  ],
+
+  "output": {
+    "candidate_json":      "candidate.json",
+    "pipeline_report":     "pipeline_report.json",
+    "indent":              2,
+    "ensure_ascii":        false
+  },
+
+  "report": {
+    "include_source_summary":    true,
+    "include_conflict_log":      true,
+    "include_field_confidences": true,
+    "include_validation_warnings": true,
+    "include_timing":            true
+  }
+}

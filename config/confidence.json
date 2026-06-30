@@ -1,0 +1,59 @@
+{
+  "_comment": "CandidateFusion – Confidence Engine Configuration",
+  "_version": "1.0.0",
+
+  "source_baselines": {
+    "resume":  0.95,
+    "ats":     0.90,
+    "github":  0.88,
+    "csv":     0.82,
+    "derived": 0.70
+  },
+
+  "field_quality_rules": {
+    "full_name": [
+      { "condition": "has_multiple_words", "delta":  0.05 },
+      { "condition": "too_long_gt_30",     "delta": -0.05 }
+    ],
+    "emails": [
+      { "condition": "non_empty",          "delta":  0.03 },
+      { "condition": "too_many_gt_3",      "delta": -0.05 }
+    ],
+    "phones": [
+      { "condition": "non_empty",          "delta":  0.02 }
+    ],
+    "location": [
+      { "condition": "has_comma",          "delta":  0.03 }
+    ],
+    "years_experience": [
+      { "condition": "realistic_0_50",     "delta":  0.03 },
+      { "condition": "unrealistic_gt_40",  "delta": -0.10 }
+    ],
+    "skills": [
+      { "condition": "at_least_3",         "delta":  0.03 },
+      { "condition": "at_least_10",        "delta":  0.02 }
+    ]
+  },
+
+  "cross_source_agreement": {
+    "bonus_per_additional_source": 0.02,
+    "max_bonus": 0.10
+  },
+
+  "overall_confidence": {
+    "key_field_weights": {
+      "full_name":        0.20,
+      "emails":           0.20,
+      "phones":           0.10,
+      "location":         0.05,
+      "skills":           0.15,
+      "experience":       0.15,
+      "education":        0.10,
+      "years_experience": 0.05
+    },
+    "multi_source_bonus_per_source": 0.02,
+    "multi_source_bonus_max":        0.08,
+    "missing_name_penalty":          0.10,
+    "missing_email_penalty":         0.08
+  }
+}
