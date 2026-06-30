@@ -935,7 +935,8 @@ The sidebar provides file uploaders for Resume PDF, ATS JSON, and Recruiter CSV,
     <td align="center"><strong>Generated Profile</strong></td>
   </tr>
   <tr>
-    <td><img src="docs/images/home.png" alt="Home screen" width="420"/></td>
+    <td><img src="<img width="1470" height="836" alt="image" src="https://github.com/user-attachments/assets/4d4b0cdf-ba15-483c-8802-47f50bdb35c6" />
+" alt="Home screen" width="420"/></td>
     <td><img src="docs/images/profile.png" alt="Profile view" width="420"/></td>
   </tr>
   <tr>
