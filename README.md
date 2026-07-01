@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 <div align="center">
-=======
+========
 <!-- # 🚀 CandidateFusion AI – Multi-Source Candidate Data Transformation Pipeline 💼✨
 >>>>>>> frontend
 
