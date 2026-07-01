@@ -2060,7 +2060,7 @@ Chaitanya Bharathi Institute of Technology, Hyderabad
 
 ---
 
->>>>>>> frontend
+
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
@@ -2073,8 +2073,8 @@ If you found this project useful, please consider giving it a ⭐
 
 *Built as part of the Eightfold AI Engineering Internship application (Jul–Dec 2026)*
 
-<<<<<<< HEAD
+
 </div>
 =======
 </div>
->>>>>>> frontend
+
