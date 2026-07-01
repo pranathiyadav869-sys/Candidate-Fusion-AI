@@ -934,26 +934,29 @@ The sidebar provides file uploaders for Resume PDF, ATS JSON, and Recruiter CSV,
     <td align="center"><strong>Home — Upload Sources</strong></td>
     <td align="center"><strong>Generated Profile</strong></td>
   </tr>
+
   <tr>
-    <td><img src="<img width="2940" height="1672" alt="4" src="https://github.com/user-attachments/assets/7090a0f7-d254-4485-b6fd-777a7e36b7e3" />
-" alt="Home screen" width="420"/></td>
-    <td><img src="<img width="2940" height="1672" alt="2" src="https://github.com/user-attachments/assets/bb7c2241-5684-4d06-9280-9270ee1c5613" />
-" alt="Profile view" width="420"/></td>
+    <td>
+      <img src="docs/images/1.PNG" alt="Home screen" width="420"/>
+    </td>
+    <td>
+      <img src="docs/images/2.PNG" alt="Generated Profile" width="420"/>
+    </td>
   </tr>
+
   <tr>
     <td align="center"><strong>Downloads Panel</strong></td>
-    <td align="center"></td>
+    <td align="center"><strong>Validation & Downloads</strong></td>
   </tr>
+
   <tr>
-    <td><img src="<img width="2940" height="1672" alt="3" src="https://github.com/user-attachments/assets/a73f9d52-404f-4306-8620-72dc1de80a37" />
-" alt="Downloads" width="420"/></td>
-    <td></td>
+    <td>
+      <img src="docs/images/3.PNG" alt="Downloads Panel" width="420"/>
+    </td>
+    <td>
+      <img src="docs/images/4.PNG" alt="Validation and Downloads" width="420"/>
+    </td>
   </tr>
-   <tr>
-    <td><img src="<img width="2940" height="1672" alt="4" src="https://github.com/user-attachments/assets/76f0d106-333d-482c-84fc-b717ca6cd914" />
-" alt="Downloads" width="420"/></td>
-    <td></td>
-  </tr> 
 </table>
 
 ---
