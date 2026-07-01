@@ -1267,22 +1267,35 @@ The sidebar provides file uploaders for Resume PDF, ATS JSON, and Recruiter CSV,
 
 ## 📸 Screenshots
 
+## 📸 Screenshots
+
 <table>
   <tr>
     <td align="center"><strong>Home — Upload Sources</strong></td>
     <td align="center"><strong>Generated Profile</strong></td>
   </tr>
+
   <tr>
-    <td><img src="docs/images/home.png" alt="Home screen" width="420"/></td>
-    <td><img src="docs/images/profile.png" alt="Profile view" width="420"/></td>
+    <td>
+      <img src="docs/images/1.PNG" alt="Home screen" width="420"/>
+    </td>
+    <td>
+      <img src="docs/images/2.PNG" alt="Generated Profile" width="420"/>
+    </td>
   </tr>
+
   <tr>
     <td align="center"><strong>Downloads Panel</strong></td>
-    <td align="center"></td>
+    <td align="center"><strong>Validation & Downloads</strong></td>
   </tr>
+
   <tr>
-    <td><img src="docs/images/downloads.png" alt="Downloads" width="420"/></td>
-    <td></td>
+    <td>
+      <img src="docs/images/3.PNG" alt="Downloads Panel" width="420"/>
+    </td>
+    <td>
+      <img src="docs/images/4.PNG" alt="Validation and Downloads" width="420"/>
+    </td>
   </tr>
 </table>
 
